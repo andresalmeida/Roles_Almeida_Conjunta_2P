@@ -1,0 +1,248 @@
+{
+  "info": {
+    "name": "Roles",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Asignar Rol",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8003/api/roles/asignar-rol/8",
+          "protocol": "http",
+          "host": [
+            "localhost:8003"
+          ],
+          "path": [
+            "api",
+            "roles",
+            "asignar-rol",
+            "8"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": 5\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Crear Rol",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8003/api/roles",
+          "protocol": "http",
+          "host": [
+            "localhost:8003"
+          ],
+          "path": [
+            "api",
+            "roles"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "    {\n    \"nombre\": \"Fullstack Papuuuuuuuu\",\n    \"descripcion\": \"Roles de fullstack\"\n    }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Crear Usuario",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8002/api/usuarios",
+          "protocol": "http",
+          "host": [
+            "localhost:8002"
+          ],
+          "path": [
+            "api",
+            "usuarios"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nombre\": \"Pepe\",\n  \"apellido\": \"Bottles\",\n  \"email\": \"pepe@chimi.com\",\n  \"fechaNacimiento\": \"2002-04-16\",\n  \"telefono\": \"0982343722\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Eliminar Rol",
+      "event": [],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8003/api/roles/9",
+          "protocol": "http",
+          "host": [
+            "localhost:8003"
+          ],
+          "path": [
+            "api",
+            "roles",
+            "9"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Eliminar Usuario",
+      "event": [],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8002/api/usuarios/5",
+          "protocol": "http",
+          "host": [
+            "localhost:8002"
+          ],
+          "path": [
+            "api",
+            "usuarios",
+            "5"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Revocar Rol",
+      "event": [],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8003/api/roles/desasignar-rol/8/usuario/5",
+          "protocol": "http",
+          "host": [
+            "localhost:8003"
+          ],
+          "path": [
+            "api",
+            "roles",
+            "desasignar-rol",
+            "8",
+            "usuario",
+            "5"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Ver Roles",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8003/api/roles",
+          "protocol": "http",
+          "host": [
+            "localhost:8003"
+          ],
+          "path": [
+            "api",
+            "roles"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Ver Usuarios",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8002/api/usuarios",
+          "protocol": "http",
+          "host": [
+            "localhost:8002"
+          ],
+          "path": [
+            "api",
+            "usuarios"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "bruno",
+      "event": []
+    }
+  ],
+  "variable": []
+}
