@@ -29,7 +29,7 @@ public class Rol {
     private LocalDateTime creadoEn;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    @JoinColumn(name = "curso_id")
+    @JoinColumn(name = "rol_id")
     private List<RolUsuario> rolUsuarios;
 
     @Transient
