@@ -43,7 +43,10 @@ Este proyecto forma parte de la **Evaluación Conjunta del Segundo Parcial** y c
 
 ### `micro-usuarios`
 - Estructura similar a `micro-roles`, con funcionalidades específicas para la gestión de usuarios.
-
+- `controller`: Controladores REST para manejar las operaciones de usuarios.
+- `service`: Lógica de negocio para la gestión de usuarios.
+- `model.entity`: Entidad de la base de datos (`Usuario`).
+- `repository`: Interfaces JPA para interactuar con MySQL.
 ---
 
 ## 🚀 **Instrucciones de Ejecución**
