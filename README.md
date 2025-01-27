@@ -1,4 +1,4 @@
-# Evaluación Conjunta del Segundo Parcial
+<img width="1440" alt="elim_user" src="https://github.com/user-attachments/assets/cb2504ce-50de-438c-999d-a2abd0953057" /># Evaluación Conjunta del Segundo Parcial
 
 Este proyecto forma parte de la **Evaluación Conjunta del Segundo Parcial** y consiste en la implementación de un sistema basado en microservicios para la **gestión de roles y usuarios**. Incluye funcionalidades clave como la asignación, revocación y listado de roles asociados a usuarios, además de persistencia en una base de datos MySQL alojada en Docker.
 
@@ -94,7 +94,7 @@ La base de datos la puedes abrir en MySQL Workbench con los parámetros de conex
 
 ### 3. **Pruebas de Funcionalidad**
 
-#### USUARIOS
+### USUARIOS
 
 - Listar los usuarios disponibles:
   - **GET:** http://localhost:8002/api/usuarios
@@ -123,8 +123,12 @@ La base de datos la puedes abrir en MySQL Workbench con los parámetros de conex
 - Eliminar un usuario:
   - **DELETE:** http://localhost:8002/api/usuarios/{usuarioId}
 
+<div align="center">
+<img width="600" alt="elim_user" src="https://github.com/user-attachments/assets/ade122b8-46ea-4e5e-96b8-5f6955ea37a5" />
+</div>
+<br>
 
-#### ROLES
+### ROLES
 
 - Listar los roles disponibles, y los usuarios que están asignados:
   - **GET:** http://localhost:8003/api/roles
@@ -150,6 +154,11 @@ La base de datos la puedes abrir en MySQL Workbench con los parámetros de conex
 
 - Eliminar un rol:
   - **DELETE:** hhttp://localhost:8003/api/roles/{rolId}
+    
+<div align="center">
+<img width="600" alt="elim_rol" src="https://github.com/user-attachments/assets/e4f0deca-7bb7-4208-beb0-131f38058a71" />
+</div>
+<br>
 
 - Asignar un rol a un usuario:
   - **POST:** http://localhost:8003/api/roles/asignar-rol/{rolId}
