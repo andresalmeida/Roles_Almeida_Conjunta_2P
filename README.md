@@ -1,4 +1,4 @@
-<img width="1440" alt="elim_user" src="https://github.com/user-attachments/assets/cb2504ce-50de-438c-999d-a2abd0953057" /># Evaluación Conjunta del Segundo Parcial
+# Evaluación Conjunta del Segundo Parcial 😔
 
 Este proyecto forma parte de la **Evaluación Conjunta del Segundo Parcial** y consiste en la implementación de un sistema basado en microservicios para la **gestión de roles y usuarios**. Incluye funcionalidades clave como la asignación, revocación y listado de roles asociados a usuarios, además de persistencia en una base de datos MySQL alojada en Docker.
 
@@ -183,7 +183,7 @@ La base de datos la puedes abrir en MySQL Workbench con los parámetros de conex
 
 ---
 ## 🛠️ Pruebas con Postman
-Se ha incluido una colección de Postman (`Roles_Postman`) para probar las funcionalidades de los microservicios de forma rápida. Importa los archivo en Postman y prueba las rutas disponibles.
+Se ha incluido una colección de Postman (`Roles_Postman.json`) para probar las funcionalidades de los microservicios de forma rápida. Importa los archivo en Postman y prueba las rutas disponibles.
 
 ## 💻 Tecnologías Utilizadas
 - Spring Boot: Para la creación de los microservicios.
